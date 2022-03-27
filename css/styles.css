@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#name {
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+#username {
+    font-size: 1.5rem;
+}
+
+#name,
+#username {
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+.container {
+    max-width: 550px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 1em;
+}
+
+#username {
+    text-transform: uppercase;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.card-body-top,
+.card-body-bottom {
+    padding: 1em;
+}
+
+.card-body-top {
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.card-body-bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 1.25rem;
+}
+
+#street,
+#suite,
+#city,
+#zip {
+    margin: 0;
+}
